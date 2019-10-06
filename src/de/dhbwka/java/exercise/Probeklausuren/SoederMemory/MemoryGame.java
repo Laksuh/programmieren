@@ -1,4 +1,4 @@
-package de.dhbwka.java.exercise.Probeklausuren;
+package de.dhbwka.java.exercise.Probeklausuren.SoederMemory;
 
 import java.util.ArrayList;
 import java.util.Collections;
