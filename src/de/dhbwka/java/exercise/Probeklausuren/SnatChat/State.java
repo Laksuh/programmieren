@@ -1,3 +1,4 @@
+package de.dhbwka.java.exercise.Probeklausuren.SnatChat;
 
 public enum State {
 

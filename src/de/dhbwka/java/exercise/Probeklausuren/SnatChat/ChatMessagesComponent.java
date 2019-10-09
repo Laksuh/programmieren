@@ -1,3 +1,5 @@
+package de.dhbwka.java.exercise.Probeklausuren.SnatChat;
+
 import javax.swing.*;
 import java.awt.*;
 

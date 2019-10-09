@@ -1,18 +1,9 @@
-import java.awt.BorderLayout;
-import java.awt.Color;
+package de.dhbwka.java.exercise.Probeklausuren.SnatChat;
+
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
-import javax.swing.ButtonGroup;
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JRadioButton;
-import javax.swing.JTextField;
-import javax.swing.WindowConstants;
-import javax.swing.plaf.basic.BasicBorders.RadioButtonBorder;
 
 @SuppressWarnings("serial")
 public class SnatChatWindow extends JFrame implements SnatChatFrontend {
@@ -115,7 +106,7 @@ public class SnatChatWindow extends JFrame implements SnatChatFrontend {
 					label.setText(text + " [ " + val + " ]");
 					val--;
 					try {
-						Thread.sleep(1000l);
+						Thread.sleep(1000);
 					} catch (InterruptedException e) {
 						e.printStackTrace();
 					}

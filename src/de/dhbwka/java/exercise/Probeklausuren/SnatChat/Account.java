@@ -1,3 +1,6 @@
+package de.dhbwka.java.exercise.Probeklausuren.SnatChat;
+
+
 import java.awt.Color;
 import java.util.Random;
 
