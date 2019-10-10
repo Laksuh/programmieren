@@ -75,7 +75,7 @@ public class GameTerm implements GameClient{
     }
 
     public void setRemainingSeconds(int seconds){
-
+        remainingTime.setText(seconds+"");
     }
 
     public void gameIsOver(){
@@ -98,8 +98,9 @@ public class GameTerm implements GameClient{
         for (int i=0; i<names.size(); i++){
             s=s + names.get(i) +"("+points.get(i)+")";
         }
-        JOptionPane.showMessageDialog(frame,"Dauer: "+ "Punkte: "+s, "Ende", JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(frame,"Dauer: "+game.duration + "s Punkte: "+s, "Ende", JOptionPane.INFORMATION_MESSAGE);
 
     }
+
 
 }
