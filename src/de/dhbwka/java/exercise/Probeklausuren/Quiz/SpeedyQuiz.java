@@ -47,7 +47,7 @@ public class SpeedyQuiz {
 	public static List<Question> loadQuestions(){
 		List<Question> questions = new ArrayList<>();
 
-		try ( BufferedReader br = new BufferedReader(new FileReader("C:/users/Millo/Desktop/questions.txt")) ) {
+		try ( BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\Millo\\IdeaProjects\\Programmieren\\src\\de\\dhbwka\\java\\exercise\\Probeklausuren\\Quiz\\questions.txt")) ) {
 			while (br.ready()) {
 				String line = br.readLine();
 				System.out.println(line);
